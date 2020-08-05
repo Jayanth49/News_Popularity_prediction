@@ -70,3 +70,20 @@ abs_title_subjectivity: Absolute subjectivity level<br>
 abs_title_sentiment_polarity: Absolute polarity level<br>
 shares: Number of shares (target)<br>
 <br>
+
+<p> In this Hackathon we need to predict the number of shares of a article given above information.</p><br>
+
+<ul>
+  <li> Initial Observation this is Regression Problem </li>
+  <li> Next, here we observed that the co-relation of the target with attributes is not quite good for so,my initial intial test_model ended up in high Bias and variance
+       So,i tried to new attributes that are more informative to predict the target.</li>
+  <li> To make my model to perform best,i plotted every attribute vs target and tried to get some information_gain.I this Process I found some of the features are useless and
+    So,i decided not to include  them in the model</li>
+  <li>  Still my model doesn't perform well high bias and variance.</li>
+  <li> Next i decided to do Two things,To reduce bias 
+      <ul>
+        <li> I thought to get new attributes that are more informative about target </li>
+        <li> use more advanced regression techniques.</li>
+    </ul>
+   </ul>
+    
